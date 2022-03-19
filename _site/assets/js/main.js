@@ -23,25 +23,25 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
-            url: 'https://www.nagekar.com/2017/02/trip-to-bramhatal-uttarakhand.html',
-            title: 'Trek To Bramhatal (Uttarakhand)',
+            url: 'https://wit.nts-corp.com/2019/10/07/5686',
+            title: 'Variable fonts (가변 폰트)',
         },
         {
-            url: 'https://www.nagekar.com/2017/08/privacy.html',
-            title: 'Privacy - How I Converted',
+            url: 'https://wit.nts-corp.com/2018/11/23/5426',
+            title: "What's New in Chrome 71",
         },
-        {
-            url: 'https://www.nagekar.com/2018/01/jagriti-yatra.html',
-            title: 'Jagriti Yatra 2017',
-        },
-        {
-            url: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
-            title: 'Private Cloud Part 2 | Encrypted Storage With NextCloud',
-        },
-        {
-            url: 'https://www.nagekar.com/2018/07/eli5-how-https-works.html',
-            title: 'ELI5 - How HTTPS Works',
-        },
+        // {
+        //     url: 'https://www.nagekar.com/2018/01/jagriti-yatra.html',
+        //     title: 'Jagriti Yatra 2017',
+        // },
+        // {
+        //     url: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
+        //     title: 'Private Cloud Part 2 | Encrypted Storage With NextCloud',
+        // },
+        // {
+        //     url: 'https://www.nagekar.com/2018/07/eli5-how-https-works.html',
+        //     title: 'ELI5 - How HTTPS Works',
+        // },
     ];
 
     let post_html = [];
@@ -90,7 +90,7 @@ function blog_posts() {
     </div>
     `;
 
-    post_html.push(post_template);
+    // post_html.push(post_template);
 
     $('#rss-feeds').html(post_html);
 
