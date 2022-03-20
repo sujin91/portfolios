@@ -32,7 +32,7 @@ let render_projects = (slug) => {
             title: 'Nomflix',
             demo: false,
             technologies: ['ReactJS'],
-            description: "영화 웹서비스 만들기, 리액트를 활용한 간단한 영화 웹 서비스입니다. ",
+            description: "영화 웹서비스 만들기, 리액트에서 비동기처리, API통신을 연습하기 위한 간단한 영화 웹 서비스입니다. ",
             categories: ['fedev', 'diy']
         },
         {
